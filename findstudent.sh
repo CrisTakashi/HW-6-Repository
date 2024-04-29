@@ -16,7 +16,6 @@ else
     read -p "Enter the student ID: " student_id
 fi
 
-
 for i in "${ids[@]}" 
 do
        	if [ "$i" = "$student_id" ]
